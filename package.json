@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-data-framework-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-mandy/dynamic-data-framework-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-mandy/dynamic-data-framework-typescript/issues"
+  },
+  "homepage": "https://github.com/e-mandy/dynamic-data-framework-typescript#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
