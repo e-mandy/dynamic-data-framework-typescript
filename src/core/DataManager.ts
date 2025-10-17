@@ -28,7 +28,13 @@ class DataManager<Type extends {id: number}>{
         return this.dataCenter.filter(item => item.id != id);
     }
 
-    filterBy<T, K extends keyof Type>(dataTable: T[], key: K, value: T[K]): T[]{
+    filterBy<T, K extends keyof T>(dataTable: T[], key: K, value: T[K]): T[]{
         return dataTable.filter(item => item[key] == value)
+    }
+
+    merge<F, K>(obj1: F, obj2: K): F & K{
+        const newObj = {...obj1, ...obj2};
+
+        return newObj;
     }
 }
